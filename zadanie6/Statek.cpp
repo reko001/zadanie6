@@ -85,3 +85,23 @@ std::ostream& operator<<(std::ostream& strumien, const Statek& statek) {
 		<< statek.get_zaloga() << ", Identyfikator: " << statek.m_id;
 	return strumien;
 }
+
+void Statek::oblicz_zywnosc() {
+	m_racje = 3 * m_zaloga;
+}
+
+void Statek::oblicz_zywnosc(bool desery) {
+	if (desery) {
+		m_racje = 4 * m_zaloga;
+		return;
+	}
+	m_racje = 3 * m_zaloga;
+}
+
+void Statek::set_racje(int racje) {
+	m_racje = racje;
+}
+
+int Statek::get_racje() const {
+	return m_racje;
+}

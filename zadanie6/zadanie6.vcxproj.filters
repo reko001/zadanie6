@@ -24,12 +24,18 @@
     <ClCompile Include="Statek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StatekPasazerski.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kapitan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Statek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatekPasazerski.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

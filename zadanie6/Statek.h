@@ -4,8 +4,9 @@
 
 class Statek
 {
-private:
+protected:
 	Kapitan m_kapitan;
+private:
 	std::string m_nazwa;
 	int m_zaloga;
 	int* m_tab_i;
@@ -13,6 +14,7 @@ private:
 	static int m_obecne_id;
 	void set_id();
 	friend std::ostream& operator <<(std::ostream&, const Statek&);
+	int m_racje = 0;
 public:
 	int get_zaloga() const;
 	void set_zaloga(int);
@@ -29,5 +31,9 @@ public:
 	void werbunek(int);
 	static int static_get_id();
 	int get_id();
+	void oblicz_zywnosc();
+	void oblicz_zywnosc(bool);
+	void set_racje(int);
+	int get_racje() const;
 };
 

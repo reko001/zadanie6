@@ -6,7 +6,7 @@ private:
 	std::string m_imie;
 	std::string m_nazwisko;
 	int m_lata_sluzby;
-	bool m_na_pokladzie;
+	bool m_na_emeryturze;
 	friend std::ostream& operator<<(std::ostream&, const Kapitan&);
 public:
 	Kapitan();
@@ -18,7 +18,7 @@ public:
 	void set_nazwisko(std::string);
 	int get_lata_sluzby() const;
 	void set_lata_sluzby(int);
-	bool get_na_pokladzie() const;
-	void set_na_pokladzie(bool);
+	bool get_na_emeryturze() const;
+	void set_na_emeryturze(bool);
 };
 
