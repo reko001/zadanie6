@@ -44,3 +44,8 @@ bool Kapitan::get_na_pokladzie() const {
 void Kapitan::set_na_pokladzie(bool na_pokladzie) {
 	m_na_pokladzie = na_pokladzie;
 }
+
+std::ostream& operator<<(std::ostream& strumien, const Kapitan& kapitan) {
+	strumien << "Imie: " << kapitan.m_imie << ", nazwisko: " << kapitan.m_nazwisko << ", lata sluzby: " << kapitan.m_lata_sluzby;
+	return strumien;
+}

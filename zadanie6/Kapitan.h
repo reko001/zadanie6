@@ -7,6 +7,7 @@ private:
 	std::string m_nazwisko;
 	int m_lata_sluzby;
 	bool m_na_pokladzie;
+	friend std::ostream& operator<<(std::ostream&, const Kapitan&);
 public:
 	Kapitan();
 	Kapitan(std::string, std::string, int, bool);
