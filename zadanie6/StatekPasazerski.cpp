@@ -21,3 +21,11 @@ std::ostream& operator<<(std::ostream& strumien, const StatekPasazerski& statek)
 void StatekPasazerski::oblicz_zywnosc() {
 	set_racje(3 * (get_zaloga() + m_pasazerowie));
 }
+
+void StatekPasazerski::oblicz_zywnosc(bool desery) {
+	if (desery) {
+		set_racje(4 * (get_zaloga() + m_pasazerowie));
+		return;
+	}
+	set_racje(3 * (get_zaloga() + m_pasazerowie));
+}

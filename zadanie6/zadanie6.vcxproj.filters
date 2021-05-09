@@ -27,6 +27,12 @@
     <ClCompile Include="StatekPasazerski.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mysliwiec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportowiecBojowy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kapitan.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StatekPasazerski.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mysliwiec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportowiecBojowy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

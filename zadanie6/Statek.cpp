@@ -62,6 +62,7 @@ void Statek::set_tab_i() {
 Statek::Statek(const Statek& inny): m_kapitan(inny.m_kapitan), m_nazwa(inny.m_nazwa), m_zaloga(inny.m_zaloga) {
 	m_tab_i = new int[3];
 	set_tab_i();
+	set_id();
 }
 
 void Statek::werbunek(int liczba) {

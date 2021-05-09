@@ -26,13 +26,13 @@ public:
 	Statek();
 	Statek(Kapitan, std::string, int);
 	Statek(int);
-	~Statek();
+	virtual ~Statek();
 	Statek(const Statek&);
 	void werbunek(int);
 	static int static_get_id();
 	int get_id();
-	void oblicz_zywnosc();
-	void oblicz_zywnosc(bool);
+	virtual void oblicz_zywnosc();
+	virtual void oblicz_zywnosc(bool);
 	void set_racje(int);
 	int get_racje() const;
 };

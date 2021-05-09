@@ -140,14 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Kapitan.cpp" />
+    <ClCompile Include="Mysliwiec.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Statek.cpp" />
     <ClCompile Include="StatekPasazerski.cpp" />
+    <ClCompile Include="TransportowiecBojowy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kapitan.h" />
+    <ClInclude Include="Mysliwiec.h" />
     <ClInclude Include="Statek.h" />
     <ClInclude Include="StatekPasazerski.h" />
+    <ClInclude Include="TransportowiecBojowy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
